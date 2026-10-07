@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Sean McRae — AI Product Leader</title>
     <meta name="description" content="Sean McRae, Toronto-based AI product leader: agentic search, fintech ML and AI transformation. Open to product leadership roles and fractional CPO / advisory engagements." />
+    <link rel="canonical" href="https://seanmcrae.github.io/" />
     <meta property="og:title" content="Sean McRae — AI Product Leader" />
     <meta property="og:description" content="AI products that earn their keep. Product leadership roles and fractional CPO / advisory engagements." />
     <meta property="og:image" content="https://seanmcrae.github.io/hero.jpg" />
+    <meta property="og:url" content="https://seanmcrae.github.io/" />
     <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Sean McRae", "url": "https://seanmcrae.github.io/", "jobTitle": "AI Product Leader", "address": {"@type": "PostalAddress", "addressLocality": "Toronto", "addressRegion": "ON", "addressCountry": "CA"}, "sameAs": ["https://www.linkedin.com/in/seanmcrae6", "https://github.com/seanmcrae"], "knowsAbout": ["AI product management", "Agentic search", "RAG", "Machine learning", "Product-led growth", "Fractional CPO"]}</script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,13 +22,37 @@
     />
     <link rel="stylesheet" href="site.css" />
     <link rel="stylesheet" href="hero.css" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23111'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Helvetica,Arial,sans-serif' font-size='28' font-weight='600' fill='%23fff'%3ESM%3C/text%3E%3C/svg%3E" />
+    <style>
+      .x-flow { margin-top: 18px; padding: 16px; border-radius: var(--r-m); background: var(--fill-tertiary); }
+      .x-flow__cap { font: var(--type-caption); color: var(--text-secondary); margin-bottom: 10px; }
+      .x-flow__row { display: flex; align-items: stretch; gap: 6px; }
+      .x-flow__stage { flex: 1 1 0; min-width: 0; padding: 10px 12px; border: 1px solid var(--stroke-primary); border-radius: var(--r-s); background: var(--fill-primary-on); font: var(--type-small); color: var(--text-primary); }
+      .x-flow__stage small { display: block; margin-top: 4px; font: var(--type-caption); color: var(--text-secondary); }
+      .x-flow__stage--end { background: var(--fill-primary); color: var(--text-primary-on); border-color: var(--fill-primary); }
+      .x-flow__stage--end small { color: var(--text-primary-on); opacity: 0.85; }
+      .x-flow__arrow { flex: none; align-self: center; font: var(--type-label); color: var(--text-secondary); }
+      .x-flow__bar { margin-top: 8px; padding: 8px 12px; border: 1px dashed var(--stroke-primary); border-radius: var(--r-s); font: var(--type-caption); color: var(--text-secondary); text-align: center; }
+      .x-flow__note { margin-top: 8px; padding: 8px 12px; border-left: 2px solid var(--fill-system-green); font: var(--type-caption); color: var(--text-secondary); }
+      @media (max-width: 760px) {
+        .x-flow__row { flex-direction: column; }
+        .x-flow__arrow { transform: rotate(90deg); }
+      }
+      .x-faq { border-top: 1px solid var(--stroke-secondary); max-width: 72ch; }
+      .x-faq details { border-bottom: 1px solid var(--stroke-secondary); }
+      .x-faq summary { display: flex; justify-content: space-between; align-items: center; gap: 16px; min-height: var(--tap); padding: 14px 0; font: var(--type-heading); cursor: pointer; list-style: none; }
+      .x-faq summary::-webkit-details-marker { display: none; }
+      .x-faq summary::after { content: "+"; flex: none; font: var(--type-heading); color: var(--text-secondary); transition: transform var(--dur-quick) var(--ease-out); }
+      .x-faq details[open] summary::after { transform: rotate(45deg); }
+      .x-faq details p { padding: 0 0 18px; font: var(--type-body); color: var(--text-secondary); max-width: 62ch; }
+    </style>
   </head>
   <body>
     <div class="page" id="top">
       <header class="nav glass" data-auto></header>
       <main class="main">
         <section class="hero">
-          <img class="hero__img" src="hero.jpg" alt="Toronto skyline at blue hour" />
+          <img class="hero__img" src="hero.jpg" alt="The Toronto skyline lit up against a deep blue evening sky" />
           <div class="hero__copy">
             <p class="hero__eyebrow">Sean McRae · AI Product Leader</p>
             <h1>AI products that earn their keep.</h1>
@@ -36,6 +65,7 @@
             <div class="links">
               <a class="btn" href="mailto:seanmcrae6@outlook.com?subject=Product%20leadership%20role">Hiring for a product leader?</a>
               <a class="btn" href="mailto:seanmcrae6@outlook.com?subject=Advisory%20inquiry">Work with me as a fractional CPO / advisor</a>
+              <a class="btn" href="Sean_McRae_Resume.pdf" download>Download résumé (PDF)</a>
             </div>
             <p class="fineprint">Or find me on <a class="link" href="https://www.linkedin.com/in/seanmcrae6" target="_blank" rel="noopener">LinkedIn</a>.</p>
           </aside>
@@ -95,6 +125,17 @@
                 <p><strong>The bet.</strong> Go AI search, then agentic search with actionable workflows for Legal, Healthtech, Fintech and US Government.</p>
                 <p><strong>What I did.</strong> Owned roadmap, pricing strategy, SKU updates and vertical GTM. Introduced an AI evaluation framework tracking answer quality, accuracy, latency and LLM cost-to-serve. Ran customer and partner advisory sessions.</p>
                 <p><strong>Outcome.</strong> 65% lower search latency; the product grew from $5M to $23M ARR during my tenure.</p>
+                <figure class="x-flow" aria-label="Upland search evolution: keyword search, then AI search, then agentic search with vertical workflows, all measured by an eval framework">
+                  <figcaption class="x-flow__cap">How the product evolved</figcaption>
+                  <div class="x-flow__row">
+                    <div class="x-flow__stage">Keyword search</div>
+                    <span class="x-flow__arrow" aria-hidden="true">→</span>
+                    <div class="x-flow__stage">AI search</div>
+                    <span class="x-flow__arrow" aria-hidden="true">→</span>
+                    <div class="x-flow__stage x-flow__stage--end">Agentic search + vertical workflows<small>Legal · Healthtech · Fintech · US Gov</small></div>
+                  </div>
+                  <p class="x-flow__bar">Eval framework: quality · accuracy · latency · cost-to-serve</p>
+                </figure>
               </div>
               <dl class="step__panel">
                 <dt>Role</dt>
@@ -118,6 +159,17 @@
                 <p><strong>The bet.</strong> ML debt-recovery ranking that scores debtors on ability to repay, so agencies work the most promising accounts first.</p>
                 <p><strong>What I did.</strong> Led the product side of a staged migration to microservices that protected core financial operations, which enabled predictive models in billing, credit risk, reporting and resource allocation. Managed a 15-person agile team and aligned engineering, operations, compliance, finance and executives.</p>
                 <p><strong>Outcome.</strong> Better platform reliability and API performance; ML running in production workflows.</p>
+                <figure class="x-flow" aria-label="Canaccede transformation: tightly coupled system of record, then staged microservices migration, then ML in production">
+                  <figcaption class="x-flow__cap">How the platform changed</figcaption>
+                  <div class="x-flow__row">
+                    <div class="x-flow__stage">Tightly coupled system of record</div>
+                    <span class="x-flow__arrow" aria-hidden="true">→</span>
+                    <div class="x-flow__stage">Staged microservices migration<small>Core financial ops protected</small></div>
+                    <span class="x-flow__arrow" aria-hidden="true">→</span>
+                    <div class="x-flow__stage x-flow__stage--end">ML in production<small>Billing · credit risk · reporting · resource allocation</small></div>
+                  </div>
+                  <p class="x-flow__note">Debt-recovery ranking by ability to repay</p>
+                </figure>
               </div>
               <dl class="step__panel">
                 <dt>Role</dt>
@@ -162,7 +214,10 @@
               <p class="callout__head">Track A · Full-time</p>
               <p class="callout__lead"><strong>Director / Head of Product, Principal or Staff AI PM, AI strategy &amp; transformation.</strong></p>
               <p class="fineprint">Toronto hybrid/on-site, or remote across Canada. Available from Nov 15, 2026.</p>
-              <a class="btn" href="mailto:seanmcrae6@outlook.com?subject=Product%20leadership%20role">Email for my résumé</a>
+              <div class="links">
+                <a class="btn" href="Sean_McRae_Resume.pdf" download>Download résumé (PDF)</a>
+                <a class="btn" href="mailto:seanmcrae6@outlook.com?subject=Product%20leadership%20role">Email me</a>
+              </div>
             </aside>
             <aside class="callout" aria-label="Track B: Advisory and fractional">
               <p class="callout__head">Track B · Advisory &amp; fractional</p>
@@ -192,6 +247,46 @@
             </div>
           </div>
           <p class="fineprint">No fixed prices: every engagement is scoped on a call.</p>
+        </section>
+
+        <section class="section" id="engagement" data-nav="Engagement">
+          <div class="head">
+            <p class="head__eyebrow">Advisory</p>
+            <h2>How an advisory engagement starts</h2>
+          </div>
+          <div class="steps">
+            <article class="step">
+              <div class="step__intro"><p class="step__num">01</p><p class="step__eyebrow">30 min</p></div>
+              <div><h3>Scoping call</h3><p>Your goal, the constraint, and whether I'm the right fit.</p></div>
+            </article>
+            <article class="step">
+              <div class="step__intro"><p class="step__num">02</p><p class="step__eyebrow">First 2 weeks</p></div>
+              <div><h3>Diagnostic</h3><p>Workflows, data, roadmap and team rituals reviewed; written findings.</p></div>
+            </article>
+            <article class="step">
+              <div class="step__intro"><p class="step__num">03</p><p class="step__eyebrow">Ongoing</p></div>
+              <div><h3>Operating rhythm</h3><p>Weekly working session, async between, metrics review, with outcomes agreed up front.</p></div>
+            </article>
+          </div>
+          <div class="cards">
+            <div>
+              <h3>Good fit</h3>
+              <ul>
+                <li>B2B SaaS or fintech, seed to growth stage</li>
+                <li>A real product adding AI or agentic features</li>
+                <li>A founder still acting as head of product</li>
+                <li>A newly promoted product lead who wants a sparring partner</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Not a fit</h3>
+              <ul>
+                <li>Tool-first AI projects with no business metric</li>
+                <li>Pure staff augmentation or ticket-writing</li>
+                <li>Engagements without a weekly touchpoint</li>
+              </ul>
+            </div>
+          </div>
         </section>
 
         <section class="section" id="principles" data-nav="How I work">
@@ -273,6 +368,35 @@
           </div>
         </section>
 
+        <section class="section" id="faq" data-nav="FAQ">
+          <div class="head">
+            <p class="head__eyebrow">FAQ</p>
+            <h2>Questions people usually ask first.</h2>
+          </div>
+          <div class="x-faq">
+            <details>
+              <summary>Are you looking for a full-time role or advisory work?</summary>
+              <p>Both. I'm open to full-time Director/Head of Product and Principal/Staff AI PM roles from Nov 15, 2026, and I take a small number of advisory engagements.</p>
+            </details>
+            <details>
+              <summary>How is a fractional CPO different from a consultant?</summary>
+              <p>A consultant hands you a recommendation. As a fractional CPO I work inside your team, own roadmap and prioritization decisions, coach your PMs and stay accountable for outcomes.</p>
+            </details>
+            <details>
+              <summary>When should a company bring in a fractional CPO?</summary>
+              <p>When the founder is still the de facto head of product, a full-time CPO is premature, or you're developing an in-house leader and want them set up to succeed.</p>
+            </details>
+            <details>
+              <summary>Where do you work?</summary>
+              <p>Toronto-based. Hybrid or on-site in Toronto, or remote across Canada.</p>
+            </details>
+            <details>
+              <summary>Do you publish prices?</summary>
+              <p>Every engagement is scoped on a call, so you pay for the outcome you need, not a generic package.</p>
+            </details>
+          </div>
+        </section>
+
         <section class="section" id="contact" data-nav="Contact">
           <div class="head">
             <h2>Let's talk.</h2>
@@ -281,6 +405,7 @@
           <div class="links">
             <a class="btn" href="mailto:seanmcrae6@outlook.com?subject=Product%20leadership%20role">Hiring for a product leader?</a>
             <a class="btn" href="mailto:seanmcrae6@outlook.com?subject=Advisory%20inquiry">Work with me as a fractional CPO / advisor</a>
+            <a class="btn" href="Sean_McRae_Resume.pdf" download>Download résumé (PDF)</a>
             <a class="btn" href="https://www.linkedin.com/in/seanmcrae6" target="_blank" rel="noopener">LinkedIn</a>
           </div>
         </section>
