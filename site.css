@@ -695,3 +695,8 @@ tr.is-highlight > :last-child { box-shadow: 12px 0 var(--fill-tertiary); }
 .links { align-items: center; }
 .links__text { font: var(--type-tag); margin-left: 4px; }
 .takeaway { margin-top: 4px; padding: 10px 14px; border-left: 3px solid var(--text-primary); background: var(--fill-tertiary); border-radius: 0 var(--r-s) var(--r-s) 0; }
+
+/* quiet hero links (replaces the floating callout) */
+.hero__links { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; margin-top: 6px; font-size: var(--size-small); }
+.hero__links a:not(.btn) { color: inherit; text-decoration: underline; text-underline-offset: 3px; text-decoration-color: currentColor; opacity: .9; }
+.hero__links a:not(.btn):hover { opacity: 1; }
