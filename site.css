@@ -344,7 +344,7 @@ tbody th .dot { display: flex; width: fit-content; }
   z-index: -1;
   background:
     linear-gradient(to top, var(--hero-scrim-strong) 0%, var(--hero-scrim-soft) 42%, transparent 66%),
-    linear-gradient(to right, var(--hero-scrim-side) 0%, transparent 60%);
+    linear-gradient(to right, var(--hero-scrim-side) 0%, transparent 75%);
 }
 .hero__copy {
   display: grid;
@@ -700,3 +700,5 @@ tr.is-highlight > :last-child { box-shadow: 12px 0 var(--fill-tertiary); }
 .hero__links { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; margin-top: 6px; font-size: var(--size-small); }
 .hero__links a:not(.btn) { color: inherit; text-decoration: underline; text-underline-offset: 3px; text-decoration-color: currentColor; opacity: .9; }
 .hero__links a:not(.btn):hover { opacity: 1; }
+
+.hero h1 { text-shadow: 0 1px 18px rgb(0 0 0 / .45); }
